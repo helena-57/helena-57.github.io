@@ -19,6 +19,7 @@ h1{
 
 titles{
   color:red;text-align:center;
+
 }
 
 .navbar{
@@ -39,4 +40,65 @@ a{
   background-color: #D3D3D3;
   border-radius: 50%;
   display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /**/
+  padding: 16px;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+h3{
+border-style: dotted;
+border-width:2px
+border-color:
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row1 {margin: 0 -5px;}
+.card1 {
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-style:double;
+  border-width:3px;
+  border-color:#c2c2d6;
+}
+
+.list{
+  text-align:center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
