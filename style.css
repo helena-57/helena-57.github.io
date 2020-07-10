@@ -2,15 +2,9 @@
   margin:0px;
 }
 
-{
-  margin:0;padding:0
-}
+
 body{
   background-color:#FFFAFA;margin:10px
-}
-
-div{
-  padding:10px;
 }
 
 h1{
@@ -81,11 +75,75 @@ border-color:
   border-style:double;
   border-width:3px;
   border-color:#c2c2d6;
+  overflow:hidden
+
 }
 
-.list{
-  text-align:center
+.list1{
+  display:flex;
+  justify-content:center;
 }
+
+.card1:hover{
+  transition: 1s ease-in;
+
+}
+
+.transition:nth-of-type(1){
+  transition: 1s ease-in;
+}
+
+.transition:nth-of-type(2){
+  transition: 1s ease-out;
+}
+
+.transition:nth-of-type(3){
+  transition: 1s ease-in-out;
+}
+
+.container:hover .card1{
+  height: 400px;
+  transition: 1s ease-in;
+}
+
+.button1{
+  background-color:#fff2e6
+  font-family: "Courier New"
+}
+
+h1 {
+  text-align:center;
+}
+
+ .column2 {
+  flex: 33.3%;
+  padding: 5px;
+}
+
+
+
+.row2 {
+  display: flex;
+}
+
+.card2 {
+  padding: 16px;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
 
 
 
